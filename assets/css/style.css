@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 100px;
+}
+h1 a{
+    text-decoration: none;
+    color: #c43936;
+
+}
+
+.class-option{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    flex-direction: column;
+     text-decoration: none;
+     background-color: #c43936;
+     color: white;
+     
+
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    padding: 0 40px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: radial-gradient(circle, #c43936, white, white); */
+   
+}
+
+li a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    
+}
+
+li a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+
+li a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+main{
+    width: 60%;
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.livraison{
+    height: 100px;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+h2{
+border-bottom:solid #c43936;
+color: #c43936;
+text-align: start;
+}
+
+.main-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-pasta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-sauce{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.class-chef{
+    display: flex;
+    justify-content: space-around;
+}
+
+.class-gratinés{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.anti-pasti{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.img-menu{
+    width: 130px;
+}
+
+.desert-maison{
+  display: flex;
+  align-items: center;
+}
+
+.img-menu{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.resaux-all{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.img-resaux{
+    width: 80%;
+}
